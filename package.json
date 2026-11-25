@@ -1,0 +1,41 @@
+  {
+  "name": "grey-lines",
+  "displayName": "Grey Lines for VS Code",
+  "description": "Grey Lines: a near-black high-contrast color theme with crisp medium grey accents.",
+  "version": "0.1.0",
+  "publisher": "mpower-codeworks",
+  "icon": "icon.png",
+  "license": "MIT",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/mpower-codeworks/Grey-Lines.git"
+  },
+  "homepage": "https://github.com/mpower-codeworks/Grey-Lines",
+  "galleryBanner": {
+    "color": "#040408",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "high contrast",
+    "dark",
+    "grey",
+    "light grey",
+    "lines"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Grey Lines",
+        "uiTheme": "hc-black",
+        "path": "./themes/grey-lines.json"
+      }
+    ]
+  }
+}
